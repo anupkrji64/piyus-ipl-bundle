@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ultimate IPL Reels Bundle – 1000+ Viral Clips</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --orange:  #f97316;
+      --orange2: #ea580c;
+      --yellow:  #fbbf24;
+      --blue:    #1e3a8a;
+      --blue2:   #1d4ed8;
+      --dark:    #0f172a;
+      --gray1:   #f8fafc;
+      --gray2:   #f1f5f9;
+      --gray3:   #e2e8f0;
+      --gray4:   #94a3b8;
+      --text:    #1e293b;
+      --text2:   #475569;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── TOP BAR ── */
+    .topbar {
+      background: var(--blue);
+      color: #fff;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 16px;
+      letter-spacing: 0.3px;
+    }
+    .topbar span { color: var(--yellow); }
+
+    /* ── NAV ── */
+    nav {
+      background: #fff;
+      border-bottom: 1px solid var(--gray3);
+      padding: 14px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 8px rgba(0,0,0,.06);
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--blue);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo .dot { color: var(--orange); }
+    nav .nav-btn {
+      background: linear-gradient(135deg, var(--orange), var(--orange2));
+      color: #fff;
+      border: none;
+      padding: 10px 26px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity .2s, transform .2s;
+    }
+    nav .nav-btn:hover { opacity: .9; transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, #eff6ff 0%, #fff7ed 50%, #fef3c7 100%);
+      padding: 72px 40px 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 64px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text { max-width: 540px; }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff;
+      border: 1.5px solid #fed7aa;
+      color: var(--orange2);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: 30px;
+      margin-bottom: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 4.5vw, 52px);
+      font-weight: 900;
+      line-height: 1.12;
+      color: var(--dark);
+      margin-bottom: 18px;
+    }
+    .hero h1 .hl {
+      background: linear-gradient(90deg, var(--orange), var(--yellow));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      font-size: 16px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .price-new {
+      font-size: 48px;
+      font-weight: 900;
+      color: var(--orange);
+      line-height: 1;
+    }
+    .price-new sub { font-size: 22px; vertical-align: super; }
+    .price-old {
+      font-size: 22px;
+      color: var(--gray4);
+      text-decoration: line-through;
+    }
+    .price-off {
+      background: #dcfce7;
+      color: #16a34a;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #bbf7d0;
+    }
+
+    .btn-buy {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, var(--orange) 0%, var(--orange2) 100%);
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 16px 42px;
+      border-radius: 12px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 8px 30px rgba(249,115,22,.35);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-buy:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(249,115,22,.5);
+    }
+
+    .trust-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--text2);
+      font-weight: 500;
+    }
+    .trust-item .icon { font-size: 16px; }
+
+    /* Hero image */
+    .hero-img-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+    .hero-img-wrap img {
+      width: 340px;
+      max-width: 90vw;
+      border-radius: 20px;
+      box-shadow: 0 30px 80px rgba(0,0,0,.18);
+      display: block;
+    }
+    .hero-img-wrap .float-badge {
+      position: absolute;
+      background: #fff;
+      border-radius: 12px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 6px 24px rgba(0,0,0,.12);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .fb1 { top: -14px; right: -16px; color: var(--orange2); }
+    .fb2 { bottom: 18px; left: -20px; color: var(--blue2); }
+    .fb3 { bottom: -14px; right: 10px; color: #16a34a; }
+
+    /* ── STATS ── */
+    .stats {
+      background: var(--blue);
+      padding: 44px 40px;
+    }
+    .stats-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .stat-item { text-align: center; }
+    .stat-num {
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--yellow);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 13px;
+      color: #93c5fd;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    /* ── SECTION COMMON ── */
+    .section { padding: 72px 40px; }
+    .section-inner { max-width: 1000px; margin: 0 auto; }
+    .section-tag {
+      display: inline-block;
+      background: #fff7ed;
+      color: var(--orange2);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 20px;
+      border: 1px solid #fed7aa;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: clamp(24px, 3vw, 36px);
+      font-weight: 900;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+    .section-sub {
+      font-size: 16px;
+      color: var(--text2);
+      margin-bottom: 44px;
+      max-width: 560px;
+    }
+
+    /* ── FEATURES ── */
+    .features-bg { background: var(--gray1); }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .feat-card {
+      background: #fff;
+      border: 1px solid var(--gray3);
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+    .feat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,.08);
+      border-color: #fed7aa;
+    }
+    .feat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: #fff7ed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    .feat-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--dark); }
+    .feat-card p { font-size: 14px; color: var(--text2); line-height: 1.6; }
+
+    /* ── HOW IT WORKS ── */
+    .steps {
+      display: flex;
+      gap: 0;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .step {
+      flex: 1;
+      min-width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 16px;
+      position: relative;
+    }
+    .step:not(:last-child)::after {
+      content: '→';
+      position: absolute;
+      right: -10px;
+      top: 36px;
+      font-size: 22px;
+      color: var(--gray4);
+    }
+    @media (max-width: 600px) { .step::after { display: none; } }
+    .step-num {
+      width: 56px;
+      height: 56px;
+      background: linear-gradient(135deg, var(--orange), var(--yellow));
+      color: #fff;
+      font-size: 22px;
+      font-weight: 900;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      box-shadow: 0 6px 20px rgba(249,115,22,.3);
+    }
+    .step h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: var(--dark); }
+    .step p { font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+    /* ── BEST FOR ── */
+    .bestfor-bg { background: var(--gray2); }
+    .best-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .best-card {
+      background: #fff;
+      border: 1.5px solid var(--gray3);
+      border-radius: 14px;
+      padding: 22px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .best-card:hover {
+      border-color: #fed7aa;
+      box-shadow: 0 6px 24px rgba(0,0,0,.07);
+    }
+    .best-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, var(--orange), var(--yellow));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .best-card span { font-size: 14px; font-weight: 700; color: var(--dark); }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .testi-card {
+      background: #fff;
+      border: 1px solid var(--gray3);
+      border-radius: 16px;
+      padding: 26px 22px;
+    }
+    .stars { color: var(--yellow); font-size: 16px; margin-bottom: 10px; }
+    .testi-text { font-size: 14px; color: var(--text2); line-height: 1.6; margin-bottom: 16px; }
+    .testi-author { display: flex; align-items: center; gap: 10px; }
+    .av {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--orange), var(--yellow));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; color: #fff; font-size: 14px;
+    }
+    .testi-author .info strong { font-size: 13px; display: block; color: var(--dark); }
+    .testi-author .info span { font-size: 12px; color: var(--gray4); }
+
+    /* ── CTA BOTTOM ── */
+    .cta-bottom {
+      background: linear-gradient(135deg, var(--blue) 0%, var(--blue2) 100%);
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .cta-bottom h2 {
+      font-size: clamp(26px, 4vw, 44px);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 14px;
+    }
+    .cta-bottom p { font-size: 16px; color: #93c5fd; margin-bottom: 36px; }
+    .cta-price-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 30px;
+    }
+    .cta-price-new { font-size: 52px; font-weight: 900; color: var(--yellow); line-height: 1; }
+    .cta-price-old { font-size: 22px; color: rgba(255,255,255,.4); text-decoration: line-through; }
+    .cta-off {
+      background: #dcfce7;
+      color: #16a34a;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+    .btn-buy-white {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      color: var(--orange2);
+      font-size: 18px;
+      font-weight: 800;
+      padding: 16px 48px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(0,0,0,.25);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-buy-white:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(0,0,0,.3); }
+    .cta-note { margin-top: 16px; font-size: 13px; color: #93c5fd; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--dark);
+      padding: 36px 40px;
+      text-align: center;
+    }
+    .footer-logo { font-size: 18px; font-weight: 900; color: #fff; margin-bottom: 14px; }
+    .footer-logo span { color: var(--orange); }
+    .footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 14px; }
+    .footer-links a { font-size: 13px; color: #64748b; text-decoration: none; }
+    .footer-links a:hover { color: var(--orange); }
+    footer p { font-size: 12px; color: #334155; }
+
+    /* ── PULSE ANIM ── */
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    .hero-img-wrap img { animation: float 4s ease-in-out infinite; }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    🔥 Limited Time Offer — <span>97% OFF Today Only</span> — Price Increases Soon!
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">🏏 IPL<span class="dot">Reels</span>Bundle</div>
+    <a href="#buy" class="nav-btn">Buy Now – ₹29</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-badge">🚀 #1 Cricket Content Bundle 2025</div>
+      <h1>
+        Grow Your Page with<br/>
+        <span class="hl">1000+ Viral IPL</span><br/>
+        Cricket Reels
+      </h1>
+      <p class="hero-desc">
+        Premium HD &amp; 4K cricket clips — no copyright issues, no watermarks.
+        Download once, upload forever, and watch your followers skyrocket.
+      </p>
+
+      <div class="price-row">
+        <div class="price-new"><sub>₹</sub>29</div>
+        <div class="price-old">₹999</div>
+        <div class="price-off">97% OFF</div>
+      </div>
+
+      <a href="#buy" class="btn-buy">🛒 Get Instant Access</a>
+
+      <div class="trust-row">
+        <div class="trust-item"><span class="icon">✅</span> No Copyright Issues</div>
+        <div class="trust-item"><span class="icon">⚡</span> Instant Download</div>
+        <div class="trust-item"><span class="icon">♾️</span> Lifetime Access</div>
+        <div class="trust-item"><span class="icon">🎨</span> Fully Editable</div>
+      </div>
+    </div>
+
+    <div class="hero-img-wrap">
+      <img src="bundle.jpg" alt="1000+ IPL Reels Bundle"/>
+      <div class="float-badge fb1">🔥 1000+ Reels</div>
+      <div class="float-badge fb2">📈 Go Viral Fast</div>
+      <div class="float-badge fb3">✅ No Copyright</div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-num">1000+</div>
+        <div class="stat-label">Ready-to-Upload Reels</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4K</div>
+        <div class="stat-label">HD &amp; 4K Quality</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">0</div>
+        <div class="stat-label">Copyright Strikes</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5000+</div>
+        <div class="stat-label">Happy Creators</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">₹29</div>
+        <div class="stat-label">One-Time Payment</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHAT YOU GET -->
+  <div class="section features-bg">
+    <div class="section-inner">
+      <div class="section-tag">📦 What's Included</div>
+      <h2 class="section-title">Everything You Get</h2>
+      <p class="section-sub">One bundle, everything you need to dominate cricket content on every platform.</p>
+      <div class="features-grid">
+        <div class="feat-card">
+          <div class="feat-icon">🎬</div>
+          <h3>1000+ IPL Cricket Reels</h3>
+          <p>Massive library of high-engagement clips — trending moments, sixes, wickets, celebrations &amp; more.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">🚫</div>
+          <h3>No Logo / No Watermark</h3>
+          <p>Clean, professional videos. Add your own branding and make every reel uniquely yours.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">📺</div>
+          <h3>Full HD &amp; 4K Quality</h3>
+          <p>Crystal-clear visuals that stand out on Instagram, YouTube Shorts, and Facebook Reels.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">✏️</div>
+          <h3>Completely Editable</h3>
+          <p>Add your logo, overlay text, captions or music. Full creative freedom with every clip.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">♾️</div>
+          <h3>One-Time Payment</h3>
+          <p>Pay once. Access forever. No subscriptions, no renewal fees — it's yours for life.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">⚡</div>
+          <h3>Instant Download</h3>
+          <p>Get access immediately after purchase. Start uploading to your page within minutes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section">
+    <div class="section-inner">
+      <div class="section-tag">🔄 Process</div>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">Start growing your page in 3 simple steps.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Purchase</h3>
+          <p>Complete the secure one-time payment of just ₹29.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Download</h3>
+          <p>Instantly access &amp; download 1000+ IPL reels in HD/4K.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Brand &amp; Upload</h3>
+          <p>Add your logo and upload to Instagram, YouTube &amp; more.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Go Viral</h3>
+          <p>Watch your views and followers grow every day.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BEST FOR -->
+  <div class="section bestfor-bg">
+    <div class="section-inner">
+      <div class="section-tag">🎯 Ideal For</div>
+      <h2 class="section-title">Who Is This For?</h2>
+      <p class="section-sub">Perfect for any creator in the cricket &amp; sports content space.</p>
+      <div class="best-grid">
+        <div class="best-card">
+          <div class="best-icon">🏏</div>
+          <span>Cricket Fan Pages</span>
+        </div>
+        <div class="best-card">
+          <div class="best-icon">▶️</div>
+          <span>YouTube Shorts Creators</span>
+        </div>
+        <div class="best-card">
+          <div class="best-icon">📸</div>
+          <span>Instagram Reels Pages</span>
+        </div>
+        <div class="best-card">
+          <div class="best-icon">📘</div>
+          <span>Facebook Reels Creators</span>
+        </div>
+        <div class="best-card">
+          <div class="best-icon">🎯</div>
+          <span>Sports Content Creators</span>
+        </div>
+        <div class="best-card">
+          <div class="best-icon">💼</div>
+          <span>Digital Marketers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div class="section">
+    <div class="section-inner">
+      <div class="section-tag">⭐ Reviews</div>
+      <h2 class="section-title">What Creators Are Saying</h2>
+      <p class="section-sub">Join thousands of content creators already growing with this bundle.</p>
+      <div class="testimonials-grid">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"Went from 2K to 45K followers in just 3 weeks using these reels! The quality is insane and zero copyright strikes."</p>
+          <div class="testi-author">
+            <div class="av">R</div>
+            <div class="info"><strong>Rahul Sharma</strong><span>Instagram Creator, Mumbai</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"Best ₹29 I've ever spent. My YouTube Shorts channel grew 10x in a month. The 4K quality makes every video look professional."</p>
+          <div class="testi-author">
+            <div class="av">A</div>
+            <div class="info"><strong>Arjun Patel</strong><span>YouTube Shorts Creator</span></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"Absolutely worth it! 1000+ reels means I have content for months. No watermarks and fully editable — exactly what I needed."</p>
+          <div class="testi-author">
+            <div class="av">P</div>
+            <div class="info"><strong>Priya Nair</strong><span>Facebook Reels Page Owner</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA BOTTOM -->
+  <section class="cta-bottom" id="buy">
+    <h2>Ready to Go Viral? 🚀</h2>
+    <p>Join 5000+ creators growing their pages with premium IPL Cricket Reels</p>
+    <div class="cta-price-row">
+      <div class="cta-price-old">₹999</div>
+      <div class="cta-price-new">₹29</div>
+      <div class="cta-off">97% OFF</div>
+    </div>
+    <a href="#" class="btn-buy-white">🛒 Buy Now — Get Instant Access</a>
+    <p class="cta-note">⚡ One-Time Payment &nbsp;•&nbsp; Instant Download &nbsp;•&nbsp; Lifetime Access &nbsp;•&nbsp; No Subscription</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">🏏 IPL<span>Reels</span>Bundle</div>
+    <div class="footer-links">
+      <a href="#" onclick="openModal('refundModal');return false;">Refund Policy</a>
+      <a href="#" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
+      <a href="#" onclick="openModal('termsModal');return false;">Terms &amp; Conditions</a>
+      <a href="#" onclick="openModal('disclaimerModal');return false;">Disclaimer</a>
+    </div>
+    <p>&copy; 2025 IPLReelsBundle. All rights reserved.</p>
+  </footer>
+
+  <!-- ══════════════ MODALS ══════════════ -->
+  <style>
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-box {
+      background: #fff;
+      border-radius: 18px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 24px 80px rgba(0,0,0,.25);
+      animation: modalIn .25s ease;
+    }
+    @keyframes modalIn {
+      from { transform: translateY(30px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px 28px 18px;
+      border-bottom: 1px solid var(--gray3);
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-radius: 18px 18px 0 0;
+    }
+    .modal-header h2 { font-size: 20px; font-weight: 800; color: var(--dark); }
+    .modal-close {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: var(--gray2);
+      cursor: pointer;
+      font-size: 18px;
+      color: var(--text2);
+      display: flex; align-items: center; justify-content: center;
+      transition: background .15s;
+    }
+    .modal-close:hover { background: var(--gray3); }
+    .modal-body {
+      padding: 24px 28px 32px;
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.75;
+    }
+    .modal-body h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--dark);
+      margin: 22px 0 8px;
+    }
+    .modal-body h3:first-child { margin-top: 0; }
+    .modal-body p { margin-bottom: 10px; }
+    .modal-body ul { padding-left: 18px; margin-bottom: 10px; }
+    .modal-body ul li { margin-bottom: 5px; }
+    .modal-body .updated {
+      display: inline-block;
+      background: #eff6ff;
+      color: var(--blue2);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+  </style>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div class="modal-overlay" id="privacyModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2>🔒 Privacy Policy</h2>
+        <button class="modal-close" onclick="closeModal('privacyModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <span class="updated">Last Updated: April 2025</span>
+        <h3>1. Introduction</h3>
+        <p>Welcome to IPLReelsBundle ("we", "our", "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website and make a purchase.</p>
+
+        <h3>2. Information We Collect</h3>
+        <p>We collect information you provide directly to us, including:</p>
+        <ul>
+          <li>Name and email address (for order confirmation and delivery)</li>
+          <li>Phone number (optional, for support purposes)</li>
+          <li>Payment information (processed securely by our payment provider — we do not store card details)</li>
+        </ul>
+
+        <h3>3. How We Use Your Information</h3>
+        <ul>
+          <li>To process and deliver your purchase</li>
+          <li>To send order confirmations and download links</li>
+          <li>To respond to your queries and provide customer support</li>
+          <li>To improve our products and website experience</li>
+        </ul>
+
+        <h3>4. Data Sharing</h3>
+        <p>We do not sell, trade, or rent your personal information to third parties. We may share data with trusted payment processors (e.g., Razorpay, Instamojo) solely to complete your transaction.</p>
+
+        <h3>5. Data Security</h3>
+        <p>We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, alteration, disclosure, or destruction.</p>
+
+        <h3>6. Cookies</h3>
+        <p>Our website may use cookies to enhance your browsing experience. You can choose to disable cookies through your browser settings; however, some parts of the site may not function properly.</p>
+
+        <h3>7. Your Rights</h3>
+        <p>You have the right to access, correct, or delete your personal data at any time. To exercise these rights, contact us at support@iplreelsbundle.com.</p>
+
+        <h3>8. Changes to This Policy</h3>
+        <p>We may update this Privacy Policy periodically. Changes will be posted on this page with an updated date. Continued use of our site constitutes acceptance of the revised policy.</p>
+
+        <h3>9. Contact Us</h3>
+        <p>For any privacy-related queries, email us at: <strong>support@iplreelsbundle.com</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TERMS & CONDITIONS MODAL -->
+  <div class="modal-overlay" id="termsModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2>📄 Terms &amp; Conditions</h2>
+        <button class="modal-close" onclick="closeModal('termsModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <span class="updated">Last Updated: April 2025</span>
+        <h3>1. Acceptance of Terms</h3>
+        <p>By accessing this website and purchasing our products, you agree to be bound by these Terms &amp; Conditions. If you do not agree, please do not use our services.</p>
+
+        <h3>2. Product Description</h3>
+        <p>The IPL Reels Bundle is a digital product containing 1000+ video clips intended for use as content on social media platforms. All clips are provided for content creation purposes only.</p>
+
+        <h3>3. License &amp; Usage</h3>
+        <ul>
+          <li>Upon purchase, you receive a personal, non-exclusive, non-transferable licence to use the content for your own social media pages.</li>
+          <li>You may add branding, text overlays, and edits to the clips.</li>
+          <li>You may <strong>not</strong> resell, redistribute, or share the raw bundle files with others.</li>
+          <li>You may <strong>not</strong> claim original authorship of the underlying footage.</li>
+        </ul>
+
+        <h3>4. Intellectual Property</h3>
+        <p>All content in the bundle is provided for personal/commercial social media use. We do not claim to own the underlying match footage. The bundle is curated and compiled for educational and fan-page use.</p>
+
+        <h3>5. Payment &amp; Pricing</h3>
+        <p>All prices are listed in Indian Rupees (INR). Payments are processed securely. We reserve the right to change pricing at any time without prior notice.</p>
+
+        <h3>6. Delivery</h3>
+        <p>This is a digital product. Download access will be provided immediately after successful payment via the email address provided at checkout.</p>
+
+        <h3>7. Limitation of Liability</h3>
+        <p>We are not responsible for any copyright claims arising from how you choose to use the content on third-party platforms. You are solely responsible for ensuring your use complies with each platform's terms of service.</p>
+
+        <h3>8. Modifications</h3>
+        <p>We reserve the right to update these Terms at any time. Continued use of the site after changes constitutes acceptance of the new Terms.</p>
+
+        <h3>9. Governing Law</h3>
+        <p>These Terms are governed by the laws of India. Any disputes shall be resolved under the jurisdiction of Indian courts.</p>
+
+        <h3>10. Contact</h3>
+        <p>For any questions, email: <strong>support@iplreelsbundle.com</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- REFUND POLICY MODAL -->
+  <div class="modal-overlay" id="refundModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2>↩️ Refund Policy</h2>
+        <button class="modal-close" onclick="closeModal('refundModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <span class="updated">Last Updated: April 2025</span>
+        <h3>Digital Product Policy</h3>
+        <p>As this is a <strong>digital product with instant delivery</strong>, all sales are generally considered final once the download link has been issued.</p>
+
+        <h3>Eligibility for Refund</h3>
+        <p>We offer a refund only in the following circumstances:</p>
+        <ul>
+          <li>You were charged but did not receive the download link within 24 hours.</li>
+          <li>The files are significantly different from what was described on the sales page.</li>
+          <li>A duplicate charge occurred due to a technical error.</li>
+        </ul>
+
+        <h3>Non-Refundable Cases</h3>
+        <ul>
+          <li>Change of mind after purchase.</li>
+          <li>Failure to read the product description before buying.</li>
+          <li>Issues arising from how you use the content on third-party platforms.</li>
+        </ul>
+
+        <h3>How to Request a Refund</h3>
+        <p>Email us at <strong>support@iplreelsbundle.com</strong> within <strong>48 hours</strong> of purchase with your order ID and reason. Approved refunds will be processed within 5–7 business days.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER MODAL -->
+  <div class="modal-overlay" id="disclaimerModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2>⚠️ Disclaimer</h2>
+        <button class="modal-close" onclick="closeModal('disclaimerModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <span class="updated">Last Updated: April 2025</span>
+        <h3>Content Disclaimer</h3>
+        <p>The IPL Reels Bundle is a curated collection of cricket-related video clips compiled for content creators and fan pages. We do not claim ownership of any underlying match footage.</p>
+
+        <h3>Platform Responsibility</h3>
+        <p>The buyer is solely responsible for ensuring their use of the content complies with the terms of service of platforms such as Instagram, YouTube, and Facebook. We do not guarantee that content will be free from copyright claims on all platforms in all regions.</p>
+
+        <h3>Earnings Disclaimer</h3>
+        <p>Results mentioned (followers gained, views achieved) are examples from users who have used the product. Individual results may vary and are not guaranteed. Success depends on factors including posting frequency, niche, audience engagement, and platform algorithms.</p>
+
+        <h3>No Affiliation</h3>
+        <p>IPLReelsBundle is not affiliated with the Board of Control for Cricket in India (BCCI), the Indian Premier League (IPL), or any cricket franchise or broadcaster.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) {
+      document.getElementById(id).classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal(id) {
+      document.getElementById(id).classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    // Close on overlay click
+    document.querySelectorAll('.modal-overlay').forEach(el => {
+      el.addEventListener('click', function(e) {
+        if (e.target === this) closeModal(this.id);
+      });
+    });
+    // Close on Escape key
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.active').forEach(el => closeModal(el.id));
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "site": {
+    "title": "Ultimate IPL Reels Bundle – 1000+ Viral Clips",
+    "meta_description": "1000+ IPL Cricket Reels Bundle. No copyright, HD & 4K quality. Grow your Instagram, YouTube Shorts & Facebook Reels page instantly.",
+    "topbar_text": "🔥 Limited Time Offer — 97% OFF Today Only — Price Increases Soon!"
+  },
+  "hero": {
+    "badge": "🚀 #1 Cricket Content Bundle 2025",
+    "heading_line1": "Grow Your Page with",
+    "heading_highlight": "1000+ Viral IPL",
+    "heading_line2": "Cricket Reels",
+    "description": "Premium HD & 4K cricket clips — no copyright issues, no watermarks. Download once, upload forever, and watch your followers skyrocket.",
+    "product_image": "bundle.jpg"
+  },
+  "pricing": {
+    "current_price": "29",
+    "original_price": "999",
+    "discount_label": "97% OFF",
+    "currency_symbol": "₹"
+  },
+  "buy_button": {
+    "text": "🛒 Get Instant Access",
+    "url": "#",
+    "nav_text": "Buy Now – ₹29"
+  },
+  "stats": [
+    {"num": "1000+", "label": "Ready-to-Upload Reels"},
+    {"num": "4K",    "label": "HD & 4K Quality"},
+    {"num": "0",     "label": "Copyright Strikes"},
+    {"num": "5000+", "label": "Happy Creators"},
+    {"num": "₹29",   "label": "One-Time Payment"}
+  ],
+  "features": [
+    {"icon": "🎬", "title": "1000+ IPL Cricket Reels",  "desc": "Massive library of high-engagement clips — trending moments, sixes, wickets, celebrations & more."},
+    {"icon": "🚫", "title": "No Logo / No Watermark",   "desc": "Clean, professional videos. Add your own branding and make every reel uniquely yours."},
+    {"icon": "📺", "title": "Full HD & 4K Quality",      "desc": "Crystal-clear visuals that stand out on Instagram, YouTube Shorts, and Facebook Reels."},
+    {"icon": "✏️", "title": "Completely Editable",       "desc": "Add your logo, overlay text, captions or music. Full creative freedom with every clip."},
+    {"icon": "♾️", "title": "One-Time Payment",          "desc": "Pay once. Access forever. No subscriptions, no renewal fees — it's yours for life."},
+    {"icon": "⚡", "title": "Instant Download",          "desc": "Get access immediately after purchase. Start uploading to your page within minutes."}
+  ],
+  "best_for": [
+    {"icon": "🏏", "label": "Cricket Fan Pages"},
+    {"icon": "▶️", "label": "YouTube Shorts Creators"},
+    {"icon": "📸", "label": "Instagram Reels Pages"},
+    {"icon": "📘", "label": "Facebook Reels Creators"},
+    {"icon": "🎯", "label": "Sports Content Creators"},
+    {"icon": "💼", "label": "Digital Marketers"}
+  ],
+  "testimonials": [
+    {"name": "Rahul Sharma",  "location": "Instagram Creator, Mumbai",  "text": "Went from 2K to 45K followers in just 3 weeks using these reels! The quality is insane and zero copyright strikes.", "rating": 5},
+    {"name": "Arjun Patel",   "location": "YouTube Shorts Creator",     "text": "Best ₹29 I've ever spent. My YouTube Shorts channel grew 10x in a month. The 4K quality makes every video look professional.", "rating": 5},
+    {"name": "Priya Nair",    "location": "Facebook Reels Page Owner",  "text": "Absolutely worth it! 1000+ reels means I have content for months. No watermarks and fully editable — exactly what I needed.", "rating": 5}
+  ],
+  "cta": {
+    "heading": "Ready to Go Viral? 🚀",
+    "subtext": "Join 5000+ creators growing their pages with premium IPL Cricket Reels"
+  },
+  "policies": {
+    "privacy_policy": "## Privacy Policy\n\n**Last Updated: April 2025**\n\n### 1. Introduction\nWelcome to IPLReelsBundle. We are committed to protecting your personal information and your right to privacy.\n\n### 2. Information We Collect\nWe collect: Name and email address, Phone number (optional), Payment information (processed securely by our payment provider).\n\n### 3. How We Use Your Information\n- To process and deliver your purchase\n- To send order confirmations and download links\n- To respond to your queries and provide customer support\n\n### 4. Data Sharing\nWe do not sell, trade, or rent your personal information to third parties.\n\n### 5. Contact Us\nEmail: support@iplreelsbundle.com",
+    "terms_conditions": "## Terms & Conditions\n\n**Last Updated: April 2025**\n\n### 1. Acceptance of Terms\nBy purchasing our products, you agree to be bound by these Terms & Conditions.\n\n### 2. License & Usage\n- Personal, non-exclusive, non-transferable licence\n- You may add branding and edits\n- You may NOT resell or redistribute raw bundle files\n\n### 3. Payment\nAll prices in INR. One-time payment. No subscriptions.\n\n### 4. Delivery\nDigital product. Instant access after payment.\n\n### 5. Governing Law\nGoverned by the laws of India.",
+    "refund_policy": "## Refund Policy\n\n**Last Updated: April 2025**\n\n### Digital Product Policy\nAll sales are final once the download link has been issued.\n\n### Eligible for Refund\n- Not received download link within 24 hours\n- Files significantly different from description\n- Duplicate charge due to technical error\n\n### Not Eligible\n- Change of mind after purchase\n- Platform copyright claims\n\n### How to Request\nEmail support@iplreelsbundle.com within 48 hours with your order ID.",
+    "disclaimer": "## Disclaimer\n\n**Last Updated: April 2025**\n\n### Content Disclaimer\nThe IPL Reels Bundle is a curated collection of cricket-related video clips. We do not claim ownership of underlying match footage.\n\n### Platform Responsibility\nThe buyer is solely responsible for ensuring compliance with platform terms of service.\n\n### No Affiliation\nIPLReelsBundle is not affiliated with BCCI, IPL, or any cricket franchise or broadcaster."
+  },
+  "admin": {
+    "username": "admin",
+    "password": "admin@123"
+  }
+}

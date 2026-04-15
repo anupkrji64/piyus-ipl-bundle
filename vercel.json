@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "*.php": { "runtime": "vercel-php@0.7.1" },
+    "admin/*.php": { "runtime": "vercel-php@0.7.1" }
+  },
+  "routes": [
+    { "src": "/admin/dashboard", "dest": "/admin/dashboard.php" },
+    { "src": "/admin/save",      "dest": "/admin/save.php" },
+    { "src": "/admin/logout",    "dest": "/admin/logout.php" },
+    { "src": "/admin",           "dest": "/admin/index.php" },
+    { "src": "/admin/",          "dest": "/admin/index.php" },
+    { "src": "/(.*)",            "dest": "/index.php" }
+  ]
+}

@@ -10,7 +10,7 @@
     "heading_highlight": "1000+ Viral IPL",
     "heading_line2": "Cricket Reels",
     "description": "Premium HD & 4K cricket clips — no copyright issues, no watermarks. Download once, upload forever, and watch your followers skyrocket.",
-    "product_image": "bundle.jpg"
+    "product_image": "/bundle.jpg"
   },
   "pricing": {
     "current_price": "29",
@@ -18,10 +18,17 @@
     "discount_label": "97% OFF",
     "currency_symbol": "₹"
   },
+  "razorpay": {
+    "key_id": "rzp_live_5ugy5xvxFBTx5A",
+    "business_name": "IPL Reels Bundle",
+    "description": "1000+ IPL Cricket Reels Bundle",
+    "theme_color": "#f97316"
+  },
   "buy_button": {
     "text": "🛒 Get Instant Access",
-    "url": "#",
-    "nav_text": "Buy Now – ₹29"
+    "url": "",
+    "nav_text": "Buy Now – ₹29",
+    "use_razorpay": true
   },
   "stats": [
     {"num": "1000+", "label": "Ready-to-Upload Reels"},
@@ -33,10 +40,10 @@
   "features": [
     {"icon": "🎬", "title": "1000+ IPL Cricket Reels",  "desc": "Massive library of high-engagement clips — trending moments, sixes, wickets, celebrations & more."},
     {"icon": "🚫", "title": "No Logo / No Watermark",   "desc": "Clean, professional videos. Add your own branding and make every reel uniquely yours."},
-    {"icon": "📺", "title": "Full HD & 4K Quality",      "desc": "Crystal-clear visuals that stand out on Instagram, YouTube Shorts, and Facebook Reels."},
-    {"icon": "✏️", "title": "Completely Editable",       "desc": "Add your logo, overlay text, captions or music. Full creative freedom with every clip."},
-    {"icon": "♾️", "title": "One-Time Payment",          "desc": "Pay once. Access forever. No subscriptions, no renewal fees — it's yours for life."},
-    {"icon": "⚡", "title": "Instant Download",          "desc": "Get access immediately after purchase. Start uploading to your page within minutes."}
+    {"icon": "📺", "title": "Full HD & 4K Quality",     "desc": "Crystal-clear visuals that stand out on Instagram, YouTube Shorts, and Facebook Reels."},
+    {"icon": "✏️", "title": "Completely Editable",      "desc": "Add your logo, overlay text, captions or music. Full creative freedom with every clip."},
+    {"icon": "♾️", "title": "One-Time Payment",         "desc": "Pay once. Access forever. No subscriptions, no renewal fees — it's yours for life."},
+    {"icon": "⚡", "title": "Instant Download",         "desc": "Get access immediately after purchase. Start uploading to your page within minutes."}
   ],
   "best_for": [
     {"icon": "🏏", "label": "Cricket Fan Pages"},

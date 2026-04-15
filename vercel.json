@@ -8,6 +8,7 @@
     { "src": "/admin/save",      "dest": "/api/admin/save.php" },
     { "src": "/admin/logout",    "dest": "/api/admin/logout.php" },
     { "src": "/admin/?",         "dest": "/api/admin/index.php" },
+    { "src": "/([a-z0-9][a-z0-9\\-]*[a-z0-9])", "dest": "/api/page.php?slug=$1" },
     { "src": "/(.*)",            "dest": "/api/index.php" }
   ]
 }

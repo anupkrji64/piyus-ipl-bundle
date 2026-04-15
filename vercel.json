@@ -8,7 +8,8 @@
     { "src": "/admin/save",      "dest": "/api/admin/save.php" },
     { "src": "/admin/logout",    "dest": "/api/admin/logout.php" },
     { "src": "/admin/?",         "dest": "/api/admin/index.php" },
+    { "src": "/(.+\\.(jpg|jpeg|png|gif|webp|svg|ico|css|js|woff|woff2|ttf))", "dest": "/$1" },
     { "src": "/([a-z0-9][a-z0-9\\-]*[a-z0-9])", "dest": "/api/page.php?slug=$1" },
-    { "src": "/(.*)",            "dest": "/api/index.php" }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }

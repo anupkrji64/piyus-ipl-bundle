@@ -1,8 +1,6 @@
 <?php
-session_start();
-if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
-    header('Location: /admin'); exit;
-}
+require_once __DIR__ . '/auth.php';
+if (!auth_check()) { header('Location: /admin'); exit; }
 $editSlug   = preg_replace('/[^a-z0-9\-]/','',strtolower(trim($_GET['page']??'')));
 $pagesDir   = __DIR__ . '/../../pages/';
 $configPath = $editSlug ? ($pagesDir.$editSlug.'.json') : __DIR__.'/../../config.json';
@@ -81,7 +79,7 @@ body{font-family:'Inter',sans-serif;background:var(--g1);color:var(--tx);display
 <body>
 <aside class="sidebar">
   <div class="sl">🏏 IPL<span>Reels</span>Bundle</div>
-  <div class="su">Logged in as<br/><strong><?= e($_SESSION['admin_user']??'admin') ?></strong></div>
+  <div class="su">Logged in as<br/><strong><?= e(auth_user()) ?></strong></div>
   <?php if($editSlug): ?><div style="background:rgba(249,115,22,.12);padding:7px 18px;font-size:11px;color:#fed7aa;border-bottom:1px solid #1e293b">✏️ Editing: <strong><?= e($editSlug) ?></strong><br/><a href="/admin/dashboard" style="color:#93c5fd">← Back to main</a></div><?php endif; ?>
   <div class="ss">Content</div>
   <button class="ni active" onclick="sp('site',this)">🌐 Site Settings</button>

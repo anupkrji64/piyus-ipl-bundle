@@ -1,5 +1,5 @@
 <?php
-session_start();
-session_destroy();
+require_once __DIR__ . '/auth.php';
+auth_logout();
 header('Location: /admin');
 exit;

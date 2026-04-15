@@ -1,7 +1,7 @@
 <?php
-session_start();
+require_once __DIR__ . '/auth.php';
 header('Content-Type: application/json');
-if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
+if (!auth_check()) {
     echo json_encode(['ok'=>false,'msg'=>'Unauthorized']); exit;
 }
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
